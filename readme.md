@@ -1,4 +1,4 @@
-## MapTab
+## MapboxTab
 
 本项目是受[MapTab](https://github.com/bsudekum/MapTab)的启发而创建的   
 
