@@ -1,0 +1,24 @@
+{
+  "name": "MapboxTab",
+  "description": "A tab extension for viewing your current location, date and time.",
+  "short_name": "MapboxTab",
+  "version": "0.0.1",
+  "incognito": "split",
+  "offline_enabled": true,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": "script-src 'self' https://wwww.mapbox.com/*; object-src 'self'",
+  "permissions": [
+    "geolocation",
+    "cookies",
+    "<all_urls>",
+    "tabs"
+  ],
+  "icons": {
+    "16": "assets/images/icon16.png",
+    "48": "assets/images/icon48.png",
+    "128": "assets/images/icon128.png"
+  },
+  "manifest_version": 2
+}
